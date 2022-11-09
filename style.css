@@ -5,7 +5,7 @@ html {
 .clock {
   width: 100px;
   height:100px;
-  margin: 70px auto;
+  margin: 100px auto;
   border: 10px solid rgb(154, 108, 16);
   border-radius: 50%;
   position: relative;
