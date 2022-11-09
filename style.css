@@ -1,12 +1,12 @@
-html {
-  background: url("./backgroundwall.jpeg");
-  background-size: auto;
+body {
+  background: url("./background4.jpeg") no-repeat center center fixed;
+  background-size: 100% 100%;
 }
 .clock {
-  width: 100px;
-  height:100px;
+  width: 120px;
+  height: 120px;
   margin: 100px auto;
-  border: 10px solid rgb(154, 108, 16);
+  border: 5px solid rgb(244, 242, 236);
   border-radius: 50%;
   position: relative;
 }
@@ -19,11 +19,23 @@ html {
 }
 .hand {
   position: absolute;
-  height: 4px;
-  width: 45%;
-  background: rgb(233, 231, 231);
+  width: 50%;
+  background: rgb(223, 154, 25);
   top: 50%;
   transition-timing-function: cubic-bezier(0.22, 4.7, 0, 1.66);
   transform-origin: 100%;
   transform: rotate(180deg);
+}
+.hour-hand {
+  height: 6px;
+  width: 40%;
+  left: 9%;
+}
+.min-hand {
+  height: 3px;
+}
+.second-hand {
+  background-color: whitesmoke;
+  height: 2px;
+  z-index: 5;
 }
